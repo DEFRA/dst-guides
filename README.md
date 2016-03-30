@@ -2,6 +2,14 @@
 
 These guides relate to the work of the Digital Service Team (south), an Environment Agency team building new [Digital by default](https://www.gov.uk/service-manual/digital-by-default) services.
 
+## Guides
+
+* [Process](/process)
+  * [New projects](/process/new-projects)
+* *More to come, the process of conversion and documentation is ongoing!*
+
+## About
+
 They cover processes, decisions, how-to's and notes. They are intended to help with onboarding new team members, provide details for contributors, and are part of our efforts to keep our work consistent across the services and projects we build and maintain.
 
 It has been produced as a series of markdown files to make the process of adding and maintaining the documentation as simple as possible. Nothing is fixed and anything documented here is open to change.
