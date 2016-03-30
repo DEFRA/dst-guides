@@ -22,9 +22,7 @@ It is heavily inspired by the work of [ThoughtBot](https://github.com/thoughtbot
 
 ## Contributing to this project
 
-If you have an idea you'd like to contribute please log an issue.
-
-If you'd like to suggest a change contributions should be submitted via a pull request.
+Please read the [contribution guidelines](/CONTRIBUTING.md) before submitting a pull request.
 
 ## License
 
