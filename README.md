@@ -1,5 +1,7 @@
 # DST Guides
 
+[![Build Status](https://travis-ci.org/EnvironmentAgency/dst-guides.svg?branch=master)](https://travis-ci.org/EnvironmentAgency/dst-guides)
+
 These guides relate to the work of the Digital Service Team (south), an Environment Agency team building new [Digital by default](https://www.gov.uk/service-manual/digital-by-default) services.
 
 ## Guides
