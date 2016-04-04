@@ -1,0 +1,21 @@
+language: node_js
+
+cache:
+  directories:
+    - node_modules
+
+node_js:
+  - node
+
+git:
+  depth: 3
+
+before_script:
+  - npm install -g markdown-spellcheck
+
+script:
+  - mdspell --en-gb --ignore-numbers --ignore-acronyms --report '**/*.md'
+
+branches:
+  only:
+    - master
