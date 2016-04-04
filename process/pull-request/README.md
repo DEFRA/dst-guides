@@ -92,13 +92,13 @@ Briefly a `rebase` applies your commits to the latest from *master*, a `merge` s
 
 When you're finished and have pushed your last commit add a comment along the lines of *Please could someone :eyes: at this PR for me. Thx!*
 
-Another collaborator should then come back to confirm they are doing the PR. The two of you will then work to confirm the changes are ok. When the other collaborator is happy they simply need to add a comment with a :thumbsup:.
+Another collaborator should then come back to confirm they are doing the PR. The two of you will then work to confirm the changes are ok. When the other collaborator is happy they simply need to add the comment ':ship: it!'
 
 ### No ones looking
 
 1. Give it a day for someone to come back. If still nothing add another comment to the PR naming the other collaborators (or better yet speak to the them!) This will cause GitHub to directly ping them via email.
 2. If still nothing after day 2 raise it to the team lead.
-3. Whilst waiting if stuck for something to do - PR!
+3. If stuck for something to do whilst waiting - PR!
 
 ## Completing the commit
 
@@ -146,19 +146,9 @@ You should also consider converting your commits into a bullet point list of cha
 
 Because we're rebasing we need to tell GitHub to discard what its got and instead use our new single commit `git push -f`.
 
-## Quality
-
-Once the code has been reviewed the PR should be assigned to the QA lead. If working on a story that crosses multiple repositories ***all*** PR's should be assigned to the QA lead, not just those in the front end app.
-
-QA will then deploy and test the change. The intention is that any issues found will be fixed in the original PR, not as separate fixes later.
-
-If an issue is found the PR(s) will be assigned back to you at which point go back to **Now code** and repeat the process.
-
-When QA are happy they will add a comment with the :ship: emoji to the PR(S). You're finished!
-
 ## Final step
 
-With the PR having been reviewed by fellow collaborator, squashed to a single clear commit, and signed off by QA you as the PR originator can click the *Merge* button in GitHub.
+With the PR having been reviewed by fellow collaborator, and squashed to a single clear commit you as the PR originator can click the *Merge* button in GitHub.
 
 Then make sure to delete your branch in GitHub afterwards (it provides the option right there after merge so no excuses!)
 
