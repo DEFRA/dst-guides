@@ -34,7 +34,7 @@ git commit --allow-empty
 
 The template for the commit is the following
 
-```
+```text
 50 character limited title
 
 Link to originating story/bug/card in relevant system (e.g. Jira or Trello)
@@ -44,14 +44,12 @@ Brief description covering what the change is and why we're making it.
 
 For example
 
-```
-Add ability to find EA administrative area
+```text
+Handle empty params in ValidatePreUpdate method
 
-https://eaflood.atlassian.net/browse/WAS-1023
+https://eaflood.atlassian.net/browse/WAS-1096
 
-The Environment Agency is structured around area teams, who have responsibility for activities in their area. Therefore there is often a need to know which administrative area a location falls into.
-
-This change adds the ability to query a dataset maintained by www.geostore.com on behalf of the EA using an easting and northing to identify the matching EA administrative area.
+This change fixes an issue found with `validate_pre_update_organisation_address` in that a when passed empty parameters it would cause an `undefined method all? for nil:NilClass` error to be thrown.
 ```
 
 The key point is that it should describe **the actual change you are intending to make** and not just **what change the story outlined**. The link to the story is added for those that need the greater context.
@@ -59,11 +57,11 @@ The key point is that it should describe **the actual change you are intending t
 ### Set rules
 
 1. Separate subject from body with a blank line
-2. Limit the subject line to 50 characters
-3. Capitalize the subject line
-4. Do not end the subject line with a period
-5. Use the imperative mood in the subject line (*Add ability* not *Added ability*)
-6. Use the body to explain *what and why* vs. *how*
+1. Limit the subject line to 50 characters
+1. Capitalize the subject line
+1. Do not end the subject line with a period
+1. Use the imperative mood in the subject line (*Add ability* not *Added ability*)
+1. Use the body to explain *what and why* vs. *how*
 
 N.B. The source for these is [How to write a Git commit message](http://chris.beams.io/posts/git-commit/) which you're encouraged to read.
 
@@ -75,39 +73,31 @@ Next push your branch.
 git push -u origin feature/add-ea-admin-area-lookup
 ```
 
-The intention is to create a PR right from the start so that your proposed change is visible to all. This means all other contributors can feedback if they see any issues, and give help and advice if relevant. Better that than a completed PR which has to be canned because of an issue you weren't aware of.
+We create a PR right from the start so that your proposed change is visible to all. This means everyone can feedback if they see any issues, and give help and advice.
 
-Once pushed you'll need to go to GitHub to actually create the PR. You'll see GitHub automatically takes your first empty commit and uses it to populate the pull request title and description. Nice! You should also assign yourself to the PR so everyone knows the work is with you.
+Once pushed you'll need to go to GitHub to actually create the PR. You'll see GitHub automatically takes your first empty commit and uses it to populate the pull request title and description. Nice! Assign yourself to the PR so everyone knows the work is with you.
 
 ## Now code
 
-Now get on and code. You are advised to commit frequently and push often. Don't worry too much about your commit messages here. They will be used as part of the PR process so don't ignore them completely (no `WIP`, `Still WIP`, `More WIP!` thank you) but also don't start writing mini novellas for each one unless its relevant.
+Now get on and code. You should commit frequently and push often. Don't worry too much about your commit messages here. But don't ignore them completely as they will be used as part of the PR process (no `WIP`, `Still WIP`, `More WIP!` thank you).
 
 ## Keep up to date
 
 It's on you to keep your branch up to date with *master*. Use `rebase` to do this, not `merge`.
 
 ```bash
-git rebase orign/master
+git rebase origin/master
 ```
-
-Briefly a `rebase` applies your commits to the latest from *master*, a `merge` slots them in amongst the other commits. Hopefully you'll find this https://github.com/ginatrapani/todo.txt-android/wiki/Using-git-rebase helpful in understanding how `rebase` works.
 
 ## Get it looked at
 
-When you're finished and have pushed your last commit add a comment along the lines of *Please could someone :eyes: at this PR for me. Thx!*
+When you're finished and have pushed your last commit add a comment with the :eyes: emoji.
 
-Another collaborator should then come back to confirm they are doing the PR. The two of you will then work to confirm the changes are ok. When the other collaborator is happy they simply need to add the comment ':ship: it!'
-
-### No ones looking
-
-1. Give it a day for someone to come back. If still nothing add another comment to the PR naming the other collaborators (or better yet speak to the them!) This will cause GitHub to directly ping them via email.
-2. If still nothing after day 2 raise it to the team lead.
-3. If stuck for something to do whilst waiting - PR!
+Another collaborator should then come back to confirm they are doing the PR. The two of you will then work to confirm the changes are OK. When the other collaborator is happy they will add the comment ':ship: it!'
 
 ## Completing the commit
 
-To complete the commit ready for merging later you'll need to `squash` your commits down to one.
+To complete the PR ready for merging later you'll need to `squash` your commits down to one.
 
 The simplest way to do this is with an interactive `rebase`. We've found the easiest way to go about this is doing the following
 
@@ -123,16 +113,16 @@ For details on squashing commits and using interactive `rebase` please read [Tho
 
 You should be presented with something like this
 
-```
+```text
 #pick 07c5abd Add new WEX BO business continuity page
 pick de9b1eb Create a new file
 pick 3e7ee36 Copy in template
 pick fa20af3 Update to include content
 ```
 
-The first will be your empty commit, and the rest everything you've done since. You'll want to set that to look like this;
+The first will be your empty commit, and the rest everything you've done since. You'll want to set that to look like this
 
-```
+```text
 pick 07c5abd Add new WEX BO business continuity page
 s de9b1eb Create a new file
 s 3e7ee36 Copy in template
@@ -153,12 +143,10 @@ Because we're rebasing we need to tell GitHub to discard what its got and instea
 
 ## Final step
 
-With the PR having been reviewed by fellow collaborator, and squashed to a single clear commit you as the PR originator can click the *Merge* button in GitHub.
+With code review done, and the commits squashed you as the PR originator can click the *Merge* button in GitHub.
 
-Then make sure to delete your branch in GitHub afterwards (it provides the option right there after merge so no excuses!)
+Then make sure to delete your branch in GitHub (it provides the option right there after merge so no excuses!)
 
 ## Exceptions to the rule
 
-- Technical related items such as refactoring can skip the QA stage, but this must have been confirmed with QA before hand
 - The PR can contain more than one commit, if for example the change requires further explanation that cannot be covered in a single bullet point. Each commit must still use the template and rules for commit messages though
-  - Often whilst working on a branch its easier to also apply other fixes or changes unrelated to the thing you're currently working on. Avoid this and get into the good habit of opening a new PR for that change, it will pay dividends in the long run
