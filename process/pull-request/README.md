@@ -1,8 +1,13 @@
 # Pull request
 
-The following outlines how contributors should make changes to the repo. The goal is to retain a clean tree of changes, with each commit relating to a specific feature or fix.
+The following outlines how contributors should make changes to the repo. The goals are
 
-We also want to respect the time and effort of those reviewing our work. Keeping PR's small and focused makes for an easier time on their behalf.
+- Focused PR's related to specific changes
+- Code review is simple and manageable
+- A clean tree of changes in the commit history
+- Consistency across the commits
+
+We want to respect the time and effort of those reviewing the work. Keeping PR's small, focused and consistent makes their life easier.
 
 ## Always on a branch
 
