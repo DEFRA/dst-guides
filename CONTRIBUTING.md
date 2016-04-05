@@ -15,7 +15,11 @@ If in doubt speak to **Alan Cruikshanks** before creating the PR.
 
 ## Checking your work
 
-We use [markdown-spellcheck](https://www.npmjs.com/package/markdown-spellcheck) to check content for spelling errors. We recommend you install and run this before making a commit. We will check contributions using `mdspell --en-gb --ignore-numbers --ignore-acronyms '**/*.md'`.
+We use [markdown-spellcheck](https://www.npmjs.com/package/markdown-spellcheck) to check content for spelling errors. We check contributions using `mdspell --en-gb --ignore-numbers --ignore-acronyms '**/*.md'`.
+
+We use [markdownlint](https://github.com/mivok/markdownlint) to check the files have a consistent style. We check contributions using `mdl --style md_style.rb $PWD`.
+
+We recommend you install these tools, and then run before before pushing your commits.
 
 ## Getting feedback
 
