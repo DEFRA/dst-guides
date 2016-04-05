@@ -1,6 +1,6 @@
 # New projects
 
-*N.B. This guide currently only relates to new projects on GitHub.*
+N.B. This guide currently only relates to new projects on GitHub.
 
 ## Get a repo
 
