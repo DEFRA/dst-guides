@@ -7,18 +7,30 @@ Cruikshanks
 gitflow
 onboarding
 specs
+ThoughtBot
 Thoughbot's
 Setex
+enrollment
  - process/new-projects/README.md
 N.B.
  - README.md
 how-to's
-ThoughtBot
 v3
-Thoughbot's
 markdownlint
  - CONTRIBUTING.md
 en-gb
 markdownlint
  - style/markdown/README.md
 atx
+ - process/state-engine/README.md
+_at
+enrollment.commence
+enrollment.state
+_event
+_business
+_sector
+enrollment.save
+ - services/wex/state-engine/README.md
+_business
+_sector
+_at
