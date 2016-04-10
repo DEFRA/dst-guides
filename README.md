@@ -6,9 +6,10 @@ These guides relate to the work of the Digital Service Team (south), an Environm
 
 ## Guides
 
-* [Process](/process)
-  * [New projects](/process/new-projects)
-* *More to come, the process of conversion and documentation is ongoing!*
+- [Process](/process)
+  - [New projects](/process/new-projects)
+  - [Pull requests](/process/pull-request)
+- *More to come, the process of conversion and documentation is ongoing!*
 
 ## About
 
