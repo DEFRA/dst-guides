@@ -6,10 +6,10 @@ N.B. This guide currently only relates to new projects on GitHub.
 
 Contact **Alan Cruikshanks** or **David Blackburn** for a new repo to be created. They'll need
 
-* A name for the project
-* A description
-* Whether the repo is to be private or public
-* Team or teams to be assigned
+- A name for the project
+- A description
+- Whether the repo is to be private or public
+- Team or teams to be assigned
 
 **Do not create it under your own user account!** Though repo's can be transferred at a later date, it is simpler and clearer if the repo originates within the [Environment Agency](https://github.com/EnvironmentAgency) organisation on GitHub.
 

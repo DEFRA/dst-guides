@@ -1,24 +1,12 @@
-language: node_js
-
-cache:
-  directories:
-    - node_modules
-
-node_js:
-  - node
+language: ruby
 
 git:
   depth: 3
 
-before_install:
-   - rvm install 2.2.0
-
 before_script:
-  - npm install -g markdown-spellcheck
   - gem install mdl
 
 script:
-  - mdspell --en-gb --ignore-numbers --ignore-acronyms --report '**/*.md'
   - mdl --style md_style.rb $PWD
 
 branches:
