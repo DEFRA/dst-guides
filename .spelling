@@ -8,6 +8,7 @@ gitflow
 onboarding
 specs
 Thoughbot's
+Setex
  - process/new-projects/README.md
 N.B.
  - README.md
@@ -19,3 +20,5 @@ markdownlint
  - CONTRIBUTING.md
 en-gb
 markdownlint
+ - style/markdown/README.md
+atx
