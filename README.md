@@ -9,6 +9,11 @@ These guides relate to the work of the Digital Service Team (south), an Environm
 - [Process](/process)
   - [New projects](/process/new-projects)
   - [Pull requests](/process/pull-request)
+- [Services](/services)
+  - [Register your waste exemptions](/services/wex)
+    - [State engine](/services/wex/state-engine)
+- [Style](/style)
+  - [Markdown](/style/markdown)
 - *More to come, the process of conversion and documentation is ongoing!*
 
 ## About
