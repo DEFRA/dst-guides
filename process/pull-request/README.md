@@ -91,9 +91,9 @@ git rebase origin/master
 
 ## Get it looked at
 
-When you're finished and have pushed your last commit add a comment with the :eyes: emoji.
+When you're finished and have pushed your last commit add the label **ready for review** to the PR.
 
-Another collaborator should then come back to confirm they are doing the PR. The two of you will then work to confirm the changes are OK. When the other collaborator is happy they will add the comment ':ship: it!'
+Another collaborator should then pick up the PR for review, at which point they will change the label to **in review**. The two of you will then work to confirm the changes are OK. When the other collaborator is happy they will change the label to **ship it**.
 
 ## Completing the commit
 
