@@ -9,8 +9,8 @@ We use different workflows depending on the type of project. Essentially they ar
 
 We use Gitflow for anything that is **deployed**. Currently this is the front end Rails applications we build, which to the public are our digital services, and internal users our back office systems.
 
-<img src="gitflow.svg" alt="Git flow" style="width: 600px;"/>
-<sub>https://www.atlassian.com/git/images/tutorials/collaborating/comparing-workflows/gitflow-workflow/05.svg</sub>
+<img src="gitflow.png" alt="Git flow" style="width: 600px;"/>
+<sub><https://www.atlassian.com/git/images/tutorials/collaborating/comparing-workflows/gitflow-workflow/05.svg></sub>
 
 Using this workflow it means our branches have specific uses
 
@@ -24,12 +24,20 @@ Using this workflow it means our branches have specific uses
 
 - Once we have a set of features we want to put live, we create a **Release** branch. Last minute fixes and tidying up is done on this branch and then it is merged into Master (put live) and back into Develop
 
+### Use of tools
+
+There are a number of tools you can use to help you with gitflow, for example tools such as [Sourcetree](https://www.sourcetreeapp.com/) have support built in, and you can add support to git [via extensions](https://github.com/nvie/gitflow).
+
+However these all assume that merging will be done locally and then pushed to the origin repo. Because we create pull requests on all the branches we create and merge them using the GitHub web UI it means we cannot use these tools for merging.
+
+So feel free to use them for creating your branches, however you may find it easier to simply manually create your branches and just ensure you stick to gitflow's naming convention.
+
 ## Feature branch workflow (GitHub flow)
 
 We use this for anything which is referenced by something in production, but not directly deployed itself, for example gems and engines.
 
 <img src="githubflow.png" alt="GitHub flow" style="width: 600px;"/>
-<sub>https://guides.github.com/activities/hello-world/branching.png</sub>
+<sub><https://guides.github.com/activities/hello-world/branching.png></sub>
 
 Using this workflow we only use two branches
 
