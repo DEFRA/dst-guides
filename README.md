@@ -12,7 +12,7 @@ These guides relate to the work of the Digital Service Team (south), an Environm
   - [Workflows](/process/workflows)
 - [Services](/services)
   - [Register your waste exemptions](/services/wex)
-    - [State engine](/services/wex/state-engine)
+    - [State engine](/services/state-engine)
 - [Style](/style)
   - [Markdown](/style/markdown)
 - *More to come, the process of conversion and documentation is ongoing!*

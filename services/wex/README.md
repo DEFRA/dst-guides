@@ -17,4 +17,4 @@ The service itself is built from six different repositories
 
 ## Guides
 
-- [State engine](/services/wex/state-engine)
+- [State engine](/services/state-engine)
