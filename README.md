@@ -7,14 +7,14 @@ These guides relate to the work of the Digital Service Team (south), an Environm
 ## Guides
 
 - [Process](/process)
-  - [New projects](/process/new-projects)
-  - [Pull requests](/process/pull-request)
-  - [Workflows](/process/workflows)
+  - [New projects](/process/new_projects.md)
+  - [Pull requests](/process/pull_request.md)
+  - [Workflows](/process/workflows.md)
 - [Services](/services)
   - [Register your waste exemptions](/services/wex)
-    - [State engine](/services/wex/state-engine)
+    - [State engine](/services/wex/state_engine.md)
 - [Style](/style)
-  - [Markdown](/style/markdown)
+  - [Markdown](/style/markdown.md)
 - *More to come, the process of conversion and documentation is ongoing!*
 
 ## About

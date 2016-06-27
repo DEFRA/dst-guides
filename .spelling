@@ -13,7 +13,7 @@ Setex
 enrollment
 hotfix
 Sourcetree
- - process/new-projects/README.md
+ - process/new_projects.md
 N.B.
  - README.md
 how-to's
@@ -22,17 +22,9 @@ markdownlint
  - CONTRIBUTING.md
 en-gb
 markdownlint
- - style/markdown/README.md
+ - style/markdown.md
 atx
- - process/state-engine/README.md
-_at
-enrollment.commence
-enrollment.state
-_event
-_business
-_sector
-enrollment.save
- - services/wex/state-engine/README.md
+ - services/wex/state_engine.md
 _business
 _sector
 _at
