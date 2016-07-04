@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/EnvironmentAgency/dst-guides.svg?branch=master)](https://travis-ci.org/EnvironmentAgency/dst-guides)
 
-These guides relate to the work of the Digital Service Team (south), an Environment Agency team building new [Digital by default](https://www.gov.uk/service-manual/digital-by-default) services.
+These guides relate to the work of Digital Service teams in the Environment Agency who are building new [Digital by default](https://www.gov.uk/service-manual/digital-by-default) services.
 
 ## Guides
 
@@ -12,6 +12,7 @@ These guides relate to the work of the Digital Service Team (south), an Environm
   - [Workflows](/process/workflows.md)
 - [Services](/services)
   - [Register your waste exemptions](/services/wex)
+    - [Solution release process](/services/wex/solution-release-process.md)
     - [State engine](/services/wex/state_engine.md)
 - [Style](/style)
   - [Markdown](/style/markdown.md)
@@ -23,7 +24,7 @@ They cover processes, decisions, how-to's and notes. They are intended to help w
 
 It has been produced as a series of markdown files to make the process of adding and maintaining the documentation as simple as possible. Nothing is fixed and anything documented here is open to change.
 
-It is maintained under source control to cater for this, allowing anyone either within the team or outside to make suggestions for improvement via the standard [pull request process](https://help.github.com/articles/using-pull-requests/).
+It is maintained under source control to cater for this, allowing anyone either within a team to make suggestions for improvement via the standard [pull request process](https://help.github.com/articles/using-pull-requests/).
 
 It is pushed to GitHub to make it publicly accessible and to render the content in a presentable format.
 

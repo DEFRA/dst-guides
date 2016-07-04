@@ -79,7 +79,7 @@ Once pushed you'll need to go to GitHub to actually create the PR. You'll see Gi
 
 ## Now code
 
-Now get on and code. You should commit frequently and push often. Don't worry too much about your commit messages here. But don't ignore them completely as they will be used as part of the PR process (no `WIP`, `Still WIP`, `More WIP!` thank you).
+Now get on and code. You should commit frequently and push often. Don't worry too much about your commit messages here. But don't ignore them completely as they will be used as part of the PR process (so keep `WIP`, `Still WIP`, `More WIP!` to a minimum thank you!)
 
 ## Keep up to date
 
