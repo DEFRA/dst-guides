@@ -43,7 +43,7 @@ Using this workflow we only use two branches
 
 - **Master** is the main branch developers work from. It represents the latest version of the code. The key principle is that master should never be broken. Anything merged in needs to have been peer reviewed and passed by CI
 
-- A **Feature** branch is started each time we want to add or update a feature in the code. We branch off Master when creating the feature, and once complete merge it back into Develop
+- A **Feature** branch is started each time we want to add or update a feature in the code. We branch off Master when creating the feature, and once complete merge it back into Master
 
 ## All branches
 
