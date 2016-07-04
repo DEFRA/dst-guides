@@ -17,4 +17,5 @@ The service itself is built from six different repositories
 
 ## Guides
 
+- [Solution release process](/services/wex/solution-release-process.md)
 - [State engine](/services/wex/state-engine.md)
