@@ -158,7 +158,6 @@ Now we will look at two special elements in the state machine, that dynamically 
 We created a simple array of states , that defines the flow as simple steps, page to page, which we can also  use
 to define back and next events, that can be called on any Enrollment model instance - to go forward or back a single step.
 
-
 ## Working with the state machine
 
 You can test whether an event can be fired with the ? operator and events can be triggered explicitly
