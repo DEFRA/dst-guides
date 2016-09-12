@@ -1,0 +1,108 @@
+AllCops:
+  TargetRubyVersion: 2.3
+  # Cop names are not displayed in offense messages by default. We find it useful to include this information so we can
+  # use it to investigate what the fix may be.
+  DisplayCopNames: true
+  # Style guide URLs are not displayed in offense messages by default. Again we find it useful to go straight to the
+  # documentation for a rule when investigating what the fix may be.
+  DisplayStyleGuide: true
+  Include:
+    - "**/*.gemspec"
+    - "**/*.rake"
+    - "**/*.rb"
+    - "**/Gemfile"
+    - "**/Rakefile"
+    - "**/bin/*"
+    - "**/config.ru"
+  Exclude:
+    - "config/**/*"
+    - "script/**/*"
+    - !ruby/regexp /old_and_unused\.rb$/
+    # Rubocop is accidentally linting HTML ERB files in Atom Editor https://github.com/AtomLinter/linter-rubocop/issues/48
+    - "**/*.html.erb"
+    # Bin contains standard files created when Rails is initialised and therefore they should be left as is
+    - "bin/**/*"
+    # Rakefile is generated when Rails is initialised and therefore should be left as is
+    - "Rakefile"
+    # spec_helper is generated when rspec is initialised and therefore should be left as is
+    - "spec/spec_helper.rb"
+    - "**/db/schema.rb"
+    - "**/db/migrate/*"
+    - .git-hooks/**/*
+
+# When using Ruby >= 2.3, Rubocop wants to add a comment to the top of *.rb
+# to aid migration to frozen literals in Ruby 3.0. We are not interested in
+# modifying every file at this point, so this cop is disabled for now.
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+# TODO: Understand what the issue is and whether this needs to be more formally disabled (i.e. the dev team agree)
+# We don't understand this for now - seems to prevent perfectly reasonable meta-programming
+Lint/NestedMethodDefinition:
+  Enabled: false
+
+# We felt as a team that the default size of 15 was too low, and blocked what to us are sound methods which would not
+# add any value if broken up, for exampler composer type methods. Therefore we agreed to up the score to 20 to allow
+# for these types of methods
+Metrics/AbcSize:
+  Max: 40
+
+# We believe the default of 10 lines for a method length is too restrictive and often quickly hit just because we need
+# to specify the namesspace, class and method before then doing something with it.
+Metrics/MethodLength:
+  Max: 30
+Metrics/ModuleLength:
+  Max: 400
+  Exclude:
+    - spec/**/*_spec.rb
+
+# We believe the default 80 characters is too restrictive and that lines can still be readable and maintainable
+# when no more than 120 characters. This also allows us to maximise our scree space.
+Metrics/LineLength:
+  Max: 120
+  Exclude:
+    - spec/factories/*.rb
+    - spec/features/*_spec.rb
+    - spec/routing/*_spec.rb
+
+# Turn these off as can totally mess with the expect{...}.to syntax
+# Also reports on model validations using Proc.new { style blocks but trying to use do .. end raises invalid syntax
+Style/BlockDelimiters:
+  Exclude:
+    - spec/**/*_spec.rb
+
+# Rubymine disagrees and not sure how to fix Rubymine indentation right now
+Style/CaseIndentation:
+  Enabled: false
+
+# As a web app, as long as the team commit to using well named classes for
+# controllers, models etc it should not be necessary to add top-level class
+# documentation.
+Style/Documentation:
+  Enabled: false
+Style/EmptyLinesAroundBlockBody:
+    Enabled: false
+# Looks cluttered/ugly having your first method directly after the module/class declaration
+Style/EmptyLinesAroundModuleBody:
+  Enabled: false
+Style/EmptyLinesAroundClassBody:
+  Enabled: false
+
+# We've found the sprintf style for formatting strings can be useful when storing a formatted string as a template,
+# and passing in strings that can vary with context. Therefore we chose to disable this rule.
+Style/FormatString:
+  Enabled: false
+
+Style/MethodCalledOnDoEndBlock:
+  Exclude:
+    - spec/**/*_spec.rb
+
+# There are no relative performance improvements using '' over "", therefore we believe there is more
+# value in using "" for all strings irrespective of whether string interpolation is used
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+# Rubocop 0.42 introduced this cop - disabling for now until we have time to resolve
+# the issues it raises.
+Style/MethodMissing:
+  Enabled: false
