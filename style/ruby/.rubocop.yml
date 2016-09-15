@@ -18,8 +18,6 @@ AllCops:
     - "config/**/*"
     - "script/**/*"
     - !ruby/regexp /old_and_unused\.rb$/
-    # Rubocop is accidentally linting HTML ERB files in Atom Editor https://github.com/AtomLinter/linter-rubocop/issues/48
-    - "**/*.html.erb"
     # Bin contains standard files created when Rails is initialised and therefore they should be left as is
     - "bin/**/*"
     # Rakefile is generated when Rails is initialised and therefore should be left as is
