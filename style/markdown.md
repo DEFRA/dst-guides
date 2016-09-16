@@ -1,5 +1,11 @@
 # Markdown
 
+When writing markdown the overall goal is to make the content as accessible to the *reader* as possible. The guide below is to provide some consistency for an *editor* working across various projects.
+
+TL;DR Make it nice, but try and be consistent with the guide if you can.
+
+## Style guide
+
 Use *atx* style headers instead of *Setex*, and don't close them.
 
     # Use atx style headers
@@ -31,3 +37,5 @@ When leading into a list or code block don't put a period, colon or semi-colon a
     ```
 
 When mentioning tools or gems, link to them on first reference and then highlight them in *bold*.
+
+Don't attempt to manually wrap lines, for example at 80 characters.

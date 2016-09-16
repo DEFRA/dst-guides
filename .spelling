@@ -13,6 +13,7 @@ Setex
 enrollment
 hotfix
 Sourcetree
+gitignore
  - process/new_projects.md
 N.B.
  - README.md
@@ -28,3 +29,9 @@ atx
 _business
 _sector
 _at
+ - services/frae/solution-release-process.md
+github
+_to
+_version
+_x-x-x
+x.x.x
