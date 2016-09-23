@@ -1,8 +1,7 @@
-# style
+# Style
 
 Our guides on style.
 
-General guidelines will appear here (*coming soon!*) as well as links to our more detailed language/framework specific ones.
-
+- [Javascript](javascript.md)
 - [Markdown](markdown.md)
 - [Ruby](ruby.md)

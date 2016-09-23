@@ -19,6 +19,7 @@ These guides relate to the work of Digital Service teams in the Environment Agen
     - [State engine](/services/frae/state_engine.md)
 - [Style](/style)
   - [Markdown](/style/markdown.md)
+  - [Javascript](/style/javascript.md)
 - *More to come, the process of conversion and documentation is ongoing!*
 
 ## About
