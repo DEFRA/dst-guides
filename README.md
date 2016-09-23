@@ -6,6 +6,8 @@ These guides relate to the work of Digital Service teams in the Environment Agen
 
 ## Guides
 
+- [Applications](/applications)
+  - [Error Notifications](/applications/error-notifications.md)
 - [Process](/process)
   - [New projects](/process/new_projects.md)
   - [Pull requests](/process/pull_request.md)
@@ -18,8 +20,9 @@ These guides relate to the work of Digital Service teams in the Environment Agen
     - [Solution release process](/services/frae/solution-release-process.md)
     - [State engine](/services/frae/state_engine.md)
 - [Style](/style)
-  - [Markdown](/style/markdown.md)
   - [Javascript](/style/javascript.md)
+  - [Markdown](/style/markdown.md)
+  - [Ruby](/style/ruby.md)
 - *More to come, the process of conversion and documentation is ongoing!*
 
 ## About
