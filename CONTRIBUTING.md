@@ -11,7 +11,13 @@ If you'd like to suggest a change contributions should be submitted via a pull r
 - Details about any service's back office processes
 - Personal contact information
 
-If in doubt speak to **Alan Cruikshanks** before creating the PR.
+If in doubt speak to [Alan Cruikshanks](https://github.com/cruikshanks) or [Ben Sagar](https://github.com/bensagar-ea) before creating the PR.
+
+## Getting started
+
+Create a branch. Prefix it with `feature` or `fix` depending on whether your adding or enhancing a guide, or correcting an error or omission. Use a brief but descriptive name e.g. `feature/add-more-details-for-contributors`.
+
+Start committing your changes and **push** straight away rather than when finished.
 
 ## Checking your work
 
@@ -26,10 +32,26 @@ The last option is needed because our guides feature code examples. **markdown-s
 
 For now it'll simply report all errors and you can then deal with actually spelling errors directly.
 
-We use [markdownlint](https://github.com/mivok/markdownlint) to check the files have a consistent style as part of a CI process. We check contributions using `mdl --style md_style.rb $PWD`. We recommend you install this and run it before pushing your commits.
+We use [markdownlint](https://github.com/mivok/markdownlint) to check the files have a consistent style as part of a CI process. We check contributions using `mdl --style md_style.rb $PWD`. We recommend you install this and run it before requesting feedback.
+
+## When you're finished
+
+Make sure everything is pushed, then add the **ready for review** label to the PR and ensure you are assigned. If you have access to it announce your PR in our [Slack](https://defra-digital.slack.com/) [#dst-guides](https://defra-digital.slack.com/messages/dst-guides/) channel.
+
+If you don't add a comment mentioning either **@cruikshanks** or **@bensagar-ea**.
 
 ## Getting feedback
 
-Feedback will be provided by the team within the PR. Decisions will be documented and reasons given.
+Feedback will be provided within the PR. Decisions will be documented and reasons given.
 
-We're a team that want to encourage others to suggest ways we can improve. We'll always endeavour to be positive and professional with any comments we make about your contribution, but let us know if you feel we failed.
+We want to encourage all to contribute and suggest ways we can improve. Anyone providing feedback should be positive and professional with any comments made about your contribution, but let us know if you feel we failed.
+
+We don't expect everyone to be available or able to contribute but we want to allow enough time for those who wish to get involved. Don't merge your PR for at least 3 days, even if you've had lots of positive feedback.
+
+## Finishing up
+
+Leave the PR open for at least 3 working days and ensure at least one other person has reviewed it.
+
+Once those who have participated in the PR have said they are happy, first [squash]() your commits down to a single commit (checkout the **Completing the commit** section in [Pull requests](/process/pull_request.md) if you are unsure how to do this). Then merge it in GitHub (not locally). Don't forget to also delete the branch in GitHub.
+
+Sit back, have a :tropical_drink:, and ponder your next contribution!
