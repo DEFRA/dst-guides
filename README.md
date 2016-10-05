@@ -8,6 +8,7 @@ These guides relate to the work of Digital Service teams in the Environment Agen
 
 - [Applications](/applications)
   - [Error Notifications](/applications/error-notifications.md)
+  - [Software Libraries](/applications/software-libraries.md)
 - [Process](/process)
   - [New projects](/process/new_projects.md)
   - [Pull requests](/process/pull_request.md)
