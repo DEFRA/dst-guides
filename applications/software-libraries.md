@@ -4,7 +4,7 @@ The following describes the approach we adopt when referencing or including othe
 
 It covers the use of **any software code** that is not directly owned by the Environment Agency but is included in a deployable application bundle.
 
-Examples include JAR files on the classpath, Ruby Gems installed by bundler, NPM packages, javascript libraries referenced in web pages and code copied from Stack Overflow.
+Examples include JAR files on the classpath, Ruby Gems installed by bundler, NPM packages, JavaScript libraries referenced in web pages and code copied from Stack Overflow.
 
 It is _not_ intended to cover remote or entirely external services that an application makes use of, such as databases, operating systems, web services, etc.
 
@@ -20,7 +20,7 @@ Ensure that any client-side libraries you use are captured in your dependencies.
 
 Again, this sounds obvious.  However, not all client-side frameworks and libraries are necessarily included in your application through the likes of bundler or npm.
 
-> As an example: The GOV.UK frontend toolkit includes the GPL-licensed Nomensa accessible media player.  If you link to the Nomensa player in your own client-side Javascript then you will have to GPL *all* your client-side code.  The toolkit's MIT licence does not cover this dependency so you will need to be aware of it.
+> As an example: The GOV.UK frontend toolkit includes the GPL-licensed Nomensa accessible media player.  If you link to the Nomensa player in your own client-side JavaScript then you will have to GPL *all* your client-side code.  The toolkit's MIT licence does not cover this dependency so you will need to be aware of it.
 
 ## Use a dependency checker
 
