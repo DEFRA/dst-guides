@@ -14,6 +14,26 @@ enrollment
 hotfix
 Sourcetree
 gitignore
+brakeman
+rubocop
+config
+StandardJS
+nodejs
+dst-guides
+Sagar
+classpath
+Gemfile
+npm
+frontend
+Nomensa
+Hakiri
+Hapi
+DependencyCI
+copyfree
+Airbrake
+Errbit
+node-airbrake
+node-hapi-airbrake
  - process/new_projects.md
 N.B.
  - README.md
@@ -23,6 +43,7 @@ markdownlint
  - CONTRIBUTING.md
 en-gb
 markdownlint
+_drink
  - style/markdown.md
 atx
  - services/wex/state_engine.md

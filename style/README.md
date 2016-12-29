@@ -2,6 +2,6 @@
 
 Our guides on style.
 
-- [Javascript](javascript.md)
+- [JavaScript](javascript.md)
 - [Markdown](markdown.md)
 - [Ruby](ruby.md)

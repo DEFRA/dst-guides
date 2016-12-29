@@ -1,4 +1,4 @@
-# Javascript
+# JavaScript
 
 We have adopted [StandardJS](http://standardjs.com/) for all JavaScript written either in NodeJS apps or in client side scripting.
 

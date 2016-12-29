@@ -21,7 +21,7 @@ These guides relate to the work of Digital Service teams in the Environment Agen
     - [Solution release process](/services/frae/solution-release-process.md)
     - [State engine](/services/frae/state_engine.md)
 - [Style](/style)
-  - [Javascript](/style/javascript.md)
+  - [JavaScript](/style/javascript.md)
   - [Markdown](/style/markdown.md)
   - [Ruby](/style/ruby.md)
 - *More to come, the process of conversion and documentation is ongoing!*
