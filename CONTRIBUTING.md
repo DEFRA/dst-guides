@@ -2,7 +2,7 @@
 
 If you have an idea you'd like to contribute please log an issue.
 
-If you'd like to suggest a change contributions should be submitted via a pull request.
+If you'd like to suggest a change, contributions should be submitted via a pull request.
 
 If you have any questions or need to discuss or check anything contact us via the [#dst-guides](https://defra-digital.slack.com/messages/dst-guides/) channel in [Slack](https://defra-digital.slack.com/).
 
@@ -56,6 +56,6 @@ We don't expect everyone to be available or able to contribute but we want to al
 
 Leave the PR open for at least 3 working days and ensure at least one other person has reviewed it.
 
-Once those who have participated in the PR have said they are happy, first **squash** your commits down to a single commit. Then merge it in GitHub (not locally). Don't forget to also delete the branch in GitHub.
+Once those who have participated in the PR have said they are happy, first **squash** your commits down to a single commit. Then merge it in GitHub (not locally). Don't forget to also delete the branch in GitHub. You can do all this from the GitHub web interface.
 
 Sit back, have a :tropical_drink:, and ponder your next contribution!
