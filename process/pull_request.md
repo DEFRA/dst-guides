@@ -39,7 +39,7 @@ The template for the commit is the following
 
 Link to originating story/bug/card in relevant system (e.g. Jira or Trello)
 
-Brief description covering what the change is and why we're making it.
+Description covering why we're making this change, and briefly what the change is.
 ```
 
 For example
@@ -52,7 +52,7 @@ https://eaflood.atlassian.net/browse/WAS-1096
 This change fixes an issue found with `validate_pre_update_organisation_address` in that a when passed empty parameters it would cause an `undefined method all? for nil:NilClass` error to be thrown.
 ```
 
-The key point is that it should describe **the actual change you are intending to make** and not just **what change the story outlined**. The link to the story is added for those that need the greater context.
+The key point is that it should cover **the actual change you are intending to make**, and not just repeat **what the story outlined**. The link to the story is added for those that need the greater context.
 
 ### Set rules
 
@@ -144,6 +144,8 @@ Because we're rebasing we need to tell GitHub to discard what its got and instea
 ## Final step
 
 With code review done, and the commits squashed you as the PR originator can click the *Merge* button in GitHub.
+
+If you have to merge locally use the `git merge --no-ff` flag. This retains the fact the branch existed, and replicates what GitHub does.
 
 Then make sure to delete your branch in GitHub (it provides the option right there after merge so no excuses!)
 

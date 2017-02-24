@@ -41,6 +41,7 @@ Journea
 CodeClimate
 N.B.
 GitLab
+rubyist
  - process/new_projects.md
 N.B.
  - README.md
@@ -66,3 +67,5 @@ x.x.x
  - applications/software-libraries.md
 package.json
 EnvironmentAgency
+ - principles/code_is_not_yours.md
+Karlton
