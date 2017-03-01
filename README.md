@@ -10,7 +10,7 @@ These guides relate to the work of Digital Service teams in the Environment Agen
   - [Error Notifications](/applications/error-notifications.md)
   - [Software Libraries](/applications/software-libraries.md)
 - [Principles](/principles)
-  - [Work in the open](work_in_the_open.md)
+  - [Work in the open](/principles/work_in_the_open.md)
 - [Process](/process)
   - [New projects](/process/new_projects.md)
   - [Pull requests](/process/pull_request.md)

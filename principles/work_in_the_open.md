@@ -1,6 +1,6 @@
 # Work in the open
 
-> *Our code is open as early as possible. We only go private if we really, really, **really** have to!*
+> _Our code is open as early as possible. We only go private if we really, really, **really** have to!_
 
 [Point 8](https://www.gov.uk/service-manual/service-standard/make-all-new-source-code-open) of the [Digital Service Standard](https://www.gov.uk/service-manual/service-standard) states
 
@@ -8,7 +8,7 @@
 
 So you *could* develop your code in private, and release in time for a [Beta](https://www.gov.uk/service-manual/agile-delivery/how-the-beta-phase-works) assessment, which (other factors aside) would be sufficient to pass.
 
-However we believe there are more benefits to making code public from the beginning, rather than starting private and releasing later. Here we cover the reasons why, and who has the authority to release your code.
+However we believe there are more benefits to making code public from the beginning, rather than starting private and releasing later, and we're not the only ones. For example, see this [blog post by the Ministry of Justice on why they code in the open](https://mojdigital.blog.gov.uk/2017/02/21/why-we-code-in-the-open/). Here we cover the reasons why, and who has the authority to release your code.
 
 There is also an internal operational instruction for open sourcing code. Contact [Ben Sagar](https://github.com/bensagar-ea) or [Alan Cruikshanks](https://github.com/Cruikshanks) for a copy.
 
