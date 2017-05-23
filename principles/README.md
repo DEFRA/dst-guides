@@ -4,5 +4,6 @@ These are general principles on how to develop digital services. They are intend
 
 These principles are stated in no particular order, and are **always** open to change.
 
+- [Master is always shippable](master_is_always_shippable.md)
 - [The code is not yours](code_is_not_yours.md)
 - [Work in the open](work_in_the_open.md)

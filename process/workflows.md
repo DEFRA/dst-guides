@@ -14,7 +14,7 @@ We use Gitflow for anything that is **deployed**. Currently this is the front en
 
 Using this workflow it means our branches have specific uses
 
-- **Master** is the version of code that is in production
+- **Master** is the version of code that is in production (see the principle [Master is always shippable](../principles/master_is_always_shippable.md))
 
 - We create a **Hotfix** branch when we need to make a change to production code because of a critical error. When finished we merge the change back into Master, but also Develop
 
