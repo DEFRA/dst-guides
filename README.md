@@ -10,6 +10,7 @@ These guides relate to the work of Digital Service teams in the Environment Agen
   - [Error Notifications](/applications/error-notifications.md)
   - [Software Libraries](/applications/software-libraries.md)
 - [Principles](/principles)
+  - [Master is always shippable](/principles/master_is_always_shippable.md)
   - [The code is not yours](/principles/code_is_not_yours.md)
   - [Work in the open](/principles/work_in_the_open.md)
 - [Process](/process)

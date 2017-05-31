@@ -11,7 +11,7 @@ We want to respect the time and effort of those reviewing the work. Keeping PR's
 
 ## Always on a branch
 
-No matter how small the change, all changes must be done on a branch and never directly to `master` (or `develop` where [git flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) is being used).
+No matter how small the change, all changes must be done on a branch and never directly to `master` (or `develop` where [git flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) is being used). This is to support the principle of [Master is always shippable](../principles/master_is_always_shippable.md)
 
 Clone the repo then create your new branch. Please use one of the following prefixes to help categorise the change being made
 
