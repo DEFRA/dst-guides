@@ -15,7 +15,9 @@ Contact [Alan Cruikshanks](https://github.com/Cruikshanks) or [David Blackburn](
 
 ## Add a licence and Readme
 
-Before you push your first commit ensure you have added a [LICENCE](/LICENSE) and a [README](/README.md) to the project, and that the readme contains our standard sections covering **Contributing to this project** and **About the license**.
+Before you push your first commit ensure you have added a LICENCE and a README to the project, and that the readme contains our standard sections covering **Contributing to this project** and **About the license**.
+
+The [LICENCE](/LICENSE) and [README](/README.md) files for these guides provide useful examples.
 
 ```markdown
 ## Contributing to this project
