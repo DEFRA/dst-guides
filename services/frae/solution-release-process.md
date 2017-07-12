@@ -6,7 +6,7 @@ Exemptions service solution.
 > Please also read the general release guidance and and notes under the
 [Waste Exemptions section]((/services/wex/solution-release-process.md))
 
-## [Flood risk engine](https://github.com/EnvironmentAgency/flood-risk-engine)
+## [Flood risk engine](https://github.com/DEFRA/flood-risk-engine)
 
 > Remember that for gems we use *github flow* rather than gitflow; there is no develop branch, and
 the end result of the release process is a new tagged version.
@@ -36,7 +36,7 @@ tagging the engine it uses so we have a clear understanding of what is being use
 
 - Push tag to GitHub `git push origin vx.x.x`
 
-## [Flood risk front office](https://github.com/EnvironmentAgency/flood-risk-front-office)
+## [Flood risk front office](https://github.com/DEFRA/flood-risk-front-office)
 
 > We use *gitflow* for applications - so work is based off of a develop branch
 
@@ -55,7 +55,7 @@ tagging the engine it uses so we have a clear understanding of what is being use
 
 ```ruby
   gem "flood_risk_engine",
-    git: "https://github.com/EnvironmentAgency/flood-risk-engine",
+    git: "https://github.com/DEFRA/flood-risk-engine",
     tag: "vx.x.x"
 ```
 
@@ -77,7 +77,7 @@ tagging the engine it uses so we have a clear understanding of what is being use
 
 - Push tag to GitHub `git push origin vx.x.x`
 
-## [Flood risk back office](https://github.com/EnvironmentAgency/waste-exemptions-back-office)
+## [Flood risk back office](https://github.com/DEFRA/waste-exemptions-back-office)
 
 Follow the same process as [Flood risk front office](#user-content-flood-risk-front-office) only change
 the initial empty commit message to be

@@ -4,7 +4,7 @@ This details the process of updating each of the projects that make up the Waste
 
 It's focus is the **code**, not the release process itself (i.e. the submission of a *Request for Change*, ensuring deployment is followed by a [smoke test](https://en.wikipedia.org/wiki/Smoke_testing_(software)). The aim is to document that in the guides at a later date.
 
-## [Waste exemptions shared](https://github.com/EnvironmentAgency/waste-exemptions-shared)
+## [Waste exemptions shared](https://github.com/DEFRA/waste-exemptions-shared)
 
 - When ready for release create branch off `master` called *release/x-x-x*.
 
@@ -30,7 +30,7 @@ It's focus is the **code**, not the release process itself (i.e. the submission 
 
 - Push tag to GitHub `git push origin vx.x.x`
 
-## [Waste exemptions](https://github.com/EnvironmentAgency/waste-exemptions)
+## [Waste exemptions](https://github.com/DEFRA/waste-exemptions)
 
 - When ready for release create branch off `develop` called *release/x-x-x*.
 
@@ -47,7 +47,7 @@ It's focus is the **code**, not the release process itself (i.e. the submission 
 ```ruby
 # Core components for WasteExemptions
 gem 'waste_exemptions_shared',
-  git: 'https://github.com/EnvironmentAgency/waste-exemptions-shared',
+  git: 'https://github.com/DEFRA/waste-exemptions-shared',
   tag: 'vx.x.x'
 ```
 
@@ -71,7 +71,7 @@ gem 'waste_exemptions_shared',
 
 - Push tag to GitHub `git push origin vx.x.x`
 
-## [Waste exemptions back office](https://github.com/EnvironmentAgency/waste-exemptions-back-office)
+## [Waste exemptions back office](https://github.com/DEFRA/waste-exemptions-back-office)
 
 Follow the same process as [Waste exemptions](#waste-exemptions) only change the initial empty commit message to be
 
