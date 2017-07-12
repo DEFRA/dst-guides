@@ -82,10 +82,10 @@ The administrator for each repo will be added as a **Collaborator**. Using GitHu
 
 <img src="collaborators_teams.png" alt="Collaborators & teams" style="width: 600px;"/>
 
-Also added as *Collaborators* will be any contractors or suppliers who require access to the repo. There access should be set to either *Read* or *Write*. Only if the repo is being maintained by a third party, such as a supplier will a collaborator be given *Admin* access.
+Also added as *Collaborators* will be any contractors or suppliers who require access to the repo. Their access should be set to either *Read* or *Write*. Only if the repo is being maintained by a third party, such as a supplier will a collaborator be given *Admin* access.
 
-### Being an repository admin
+### Being a repository admin
 
-If you are the administrator for a repository its your responsibility to ensure the repo has been setup and maintained in accordance with [New projects](new_projects.md) guide.
+If you are the administrator for a repository it's your responsibility to ensure the repo has been set up and maintained in accordance with [New projects](new_projects.md) guide.
 
 It is also on you to ensure **Collaborators & teams** reflects who should have access to the repository.
