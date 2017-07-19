@@ -1,21 +1,23 @@
 # New projects
 
-N.B. This guide currently only relates to new projects on GitHub.
+This guide covers how to get a new project on GitHub, and what our standards are for them.
 
 ## Get a repo
 
-Contact **Alan Cruikshanks** or **David Blackburn** for a new repo to be created. They'll need
+Contact [Alan Cruikshanks](https://github.com/Cruikshanks) or [David Blackburn](https://github.com/davidblackburn) for a new repo to be created. They'll need
 
 - A name for the project
 - A description
 - Whether the repo is to be private or public
-- Team or teams to be assigned
+- Username of who will be its administrator
 
-**Do not create it under your own user account!** Though repo's can be transferred at a later date, it is simpler and clearer if the repo originates within the [Environment Agency](https://github.com/EnvironmentAgency) organisation on GitHub.
+**Do not create it under your own user account!** Though repo's can be transferred at a later date, it is simpler and clearer if the repo originates within the [Defra](https://github.com/Defra) organisation on GitHub.
 
 ## Add a licence and Readme
 
-Before you push your first commit ensure you have added a [LICENCE](/LICENSE) and a [README](/README.md) to the project, and that the readme contains our standard sections covering **Contributing to this project** and **About the license**.
+Before you push your first commit ensure you have added a LICENCE and a README to the project, and that the readme contains our standard sections covering **Contributing to this project** and **About the license**.
+
+The [LICENCE](/LICENSE) and [README](/README.md) files for these guides provide useful examples.
 
 ```markdown
 ## Contributing to this project
