@@ -21,7 +21,7 @@ For implementations details see  [Node-airbrake](https://github.com/airbrake/nod
 
 ### Hapi based applications
 
-If your application is using [Hapi](http://hapijs.com/) you should use [Node-hapi-airbrake](https://github.com/EnvironmentAgency/node-hapi-airbrake)  instead.
+If your application is using [Hapi](http://hapijs.com/) you should use [Node-hapi-airbrake](https://github.com/DEFRA/node-hapi-airbrake)  instead.
 
 Node-hapi-airbrake is a plug-in wrapper for Node-airbrake, so that it can be loaded as a native plug-in. It also exposes some extra configuration to enable users to connect to hosted Errbit instances, rather than the default Airbrake host.
 
@@ -33,4 +33,4 @@ server.methods.notify(new Error(), (err, url) {
 })
 ```
 
-For implementation details see [Node-hapi-airbrake](https://github.com/EnvironmentAgency/node-hapi-airbrake).
+For implementation details see [Node-hapi-airbrake](https://github.com/DEFRA/node-hapi-airbrake).

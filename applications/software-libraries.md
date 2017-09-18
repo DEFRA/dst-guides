@@ -76,7 +76,7 @@ If in any doubt, consult with your team's senior developer.  If you *are* your t
 
 ## Create organisational GitHub repositories
 
-If your team develops common code that could be reused in a library, or you have an idea for a project that could help in delivering digital services, request a repo under the [EnvironmentAgency](https://github.com/EnvironmentAgency) organisation.
+If your team develops common code that could be reused in a library, or you have an idea for a project that could help in delivering digital services, request a repo under the [Defra](https://github.com/DEFRA) organisation.
 
 **Don't** create personal repositories.
 
