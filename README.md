@@ -19,6 +19,7 @@ These guides relate to the work of Digital Service teams in the Environment Agen
   - [Pull requests](/process/pull_request.md)
   - [Workflows](/process/workflows.md)
 - [Services](/services)
+  - [Apply for a standard rules waste permit](/services/wp)
   - [Register your waste exemptions](/services/wex)
     - [Solution release process](/services/wex/solution-release-process.md)
     - [State engine](/services/wex/state_engine.md)
