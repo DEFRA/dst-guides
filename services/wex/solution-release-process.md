@@ -16,7 +16,7 @@ It's focus is the **code**, not the release process itself (i.e. the submission 
 
 - Push it to GitHub `git push -u origin release/x-x-x`
 
-- Go to <https://github.com/DEFRA/waste-exemptions> and you should see the **Compare & pull request** button. Click it to create the pull request 
+- Go to <https://github.com/DEFRA/waste-exemptions> and you should see the **Compare & pull request** button. Click it to create the pull request
 
 - Increment the version number (normally found in `config/initializers/version.rb`)
 
@@ -52,7 +52,7 @@ Follow the same process as [Waste exemptions](#waste-exemptions) only change the
 
 ## Questions
 
-### Why is Waste exemptions shared not covered?
+### Why is Waste exemptions shared not covered
 
 We used to follow the same process of preparing and tagging releases for the **Waste Exemptions Shared** project as well, and in fact this would be the first stage in the process for a release.
 
