@@ -4,52 +4,23 @@ This details the process of updating each of the projects that make up the Waste
 
 It's focus is the **code**, not the release process itself (i.e. the submission of a *Request for Change*, ensuring deployment is followed by a [smoke test](https://en.wikipedia.org/wiki/Smoke_testing_(software)). The aim is to document that in the guides at a later date.
 
-## [Waste exemptions shared](https://github.com/DEFRA/waste-exemptions-shared)
-
-- When ready for release create branch off `master` called *release/x-x-x*.
-
-- Push empty commit as normal with message
-
-> Release of version x.x.x
->
-> Creating a production ready release of this gem.
-
-- Increment the version number (normally found in `lib/engine_name/version.rb`)
-
-- Run `bundle install` (**Critical** failure to do so can lead to build issues on the CI server)
-
-- Do a `git add --all` followed by a `git commit --amend`
-
-- Save changes and force push `git push -f`
-
-- Assuming build is successful merge the PR in GitHub
-
-- Check out master and `git pull`
-
-- Create tag `git tag -a vx.x.x -m "Release of x.x.x"`
-
-- Push tag to GitHub `git push origin vx.x.x`
-
 ## [Waste exemptions](https://github.com/DEFRA/waste-exemptions)
 
 - When ready for release create branch off `develop` called *release/x-x-x*.
 
-- Push empty commit as normal with message
+- Create empty commit as normal (`git commit --allow-empty`) with message
 
 > Release of version x.x.x
 >
 > Creating a production ready release of the Waste exemptions front office service.
 
+- Push it to GitHub `git push -u origin release/x-x-x`
+
+- Go to <https://github.com/DEFRA/waste-exemptions> and you should see the **Compare & pull request** button. Click it to create the pull request 
+
 - Increment the version number (normally found in `config/initializers/version.rb`)
 
-- Ensure the reference to the `waste_exemptions_shared` gem in the `Gemfile` is pointing to the latest tag
-
-```ruby
-# Core components for WasteExemptions
-gem 'waste_exemptions_shared',
-  git: 'https://github.com/DEFRA/waste-exemptions-shared',
-  tag: 'vx.x.x'
-```
+- Ensure the [waste_exemptions_shared](https://github.com/DEFRA/waste-exemptions-shared) gem has been updated to the latest by running `bundle update waste_exemptions_shared`
 
 - Run `bundle install` (**Critical** failure to do so can lead to build issues on the CI server)
 
@@ -80,6 +51,14 @@ Follow the same process as [Waste exemptions](#waste-exemptions) only change the
 > Creating a production ready release of the Waste exemptions back office service.
 
 ## Questions
+
+### Why is Waste exemptions shared not covered?
+
+We used to follow the same process of preparing and tagging releases for the **Waste Exemptions Shared** project as well, and in fact this would be the first stage in the process for a release.
+
+However on review we found there was additional work and complexity in doing this, and we weren't getting anything in return. The `Gemfile.lock` in both the front and back office projects will tell us exactly what version of shared is deployed to production, and as we don't release it as a gem there is no other reason for creating tagged releases.
+
+Hence it is no longer part of the process, and the front and back office `Gemfile`s simply point to the master branch of **Waste exemptions shared**.
 
 ### Why manual Git flow
 
