@@ -14,4 +14,6 @@ Provides details and guides specific to a service.
   - [Solution release process](/services/frae/solution-release-process.md)
   - [State engine](/services/frae/state_engine.md)
 
+- [Report landfill data](/services/dr)
+
 - [Submit your flood or coastal erosion risk management project proposal](/services/pafs)
