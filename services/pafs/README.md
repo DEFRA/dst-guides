@@ -6,7 +6,7 @@ To quote the description on the main project README
 
 > [PAFS] is used by regional management authorities to apply for funding for flood and coastal risk management projects.
 
-The [main entry page](https://www.gov.uk/guidance/flood-and-coastal-defence-funding-submit-a-project) for the service specifies you can use tghe service to
+The [main entry page](https://www.gov.uk/guidance/flood-and-coastal-defence-funding-submit-a-project) for the service specifies you can use the service to
 
 - submit a project proposal
 - update an existing project
@@ -18,7 +18,7 @@ The one difference to other services is that you first must request an account b
 
 The service is made up of a external facing Rails web app, and an internal facing Rails web app. Common functionality is maintained in an engine mounted by both web apps.
 
-The data is maintained in PostgreSQL. It uses [Sendgrid](https://sendgrid.com/) to send emails and does **not** currently feature an address lookup (hence no integration to OS Places).
+The data is maintained in PostgreSQL. It uses [Sendgrid](https://sendgrid.com/) to send emails and does **not** currently feature an address lookup (hence no integration to OS Places). However it does integrate with [Postcode.io](http://api.postcodes.io/) to obtain postcode and constituency info from the National Grid Reference (NGR) users are required to enter.
 
 ## Repositories
 
