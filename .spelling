@@ -44,6 +44,10 @@ GitLab
 rubyist
 defra
 node.js
+postgresql
+sendgrid
+mongodb
+dropwizard
  - process/new_projects.md
 N.B.
  - README.md
@@ -74,3 +78,5 @@ Karlton
  - services/wex/solution-release-process.md
 _exemptions
 _shared
+ - services/pafs/README.md
+Postcode.io
