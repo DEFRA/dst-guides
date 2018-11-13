@@ -94,6 +94,6 @@ The simplest way to do this is in the GitHub UI. Within the PR the merge button 
 
 <img src="squash_and_merge.png" alt="Squash and merge" style="width: 384px;"/>
 
-When you click it Github will present a box which contains the combined text from all the commit messages in the PR. Use this opportunity to reword the content to a single commit message (the smaller the change the simpler this is to do!)
+When you click it GitHub will present a box which contains the combined text from all the commit messages in the PR. Use this opportunity to reword the content to a single commit message (the smaller the change the simpler this is to do!)
 
 When done ensure you delete the branch. Again GitHub will present this option in the UI immediately after merging so make use of it then.

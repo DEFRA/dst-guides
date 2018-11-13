@@ -8,36 +8,57 @@ To quote the description on the main project README
 
 The [start page](https://www.gov.uk/waste-carrier-or-broker-registration) for the service has more details about waste carrier registration in general.
 
+## Team
+
+This service is maintained by the [Ruby services team](https://github.com/orgs/DEFRA/teams/ruby-services).
+
 ## High level overview
 
-The service is implemented as a frontend web application, with a service API and a document-oriented database (MongoDB) underneath.
+The service is in a transitional phase. The original service was built as
 
-The frontend application is a Ruby on Rails 4 application, which accesses a RESTful services layer implemented in Java. The services layer provides a RESTful API to manage (create, read, update, delete) registrations. The service layer in turn accesses a MongoDB database. It is built using the [Dropwizard](http://www.dropwizard.io/) framework.
+- web application built in ruby on rails
+- service API built in Java Dropwizard
 
-For authentication purposes the service uses the [Devise gem](https://github.com/plataformatec/devise) to manage the user accounts of waste carriers (i.e. external users), and internal users (agency users such as NCCC contact centre staff and administrators). User account information managed by the Devise gem is stored in MongoDB, and the front end app accesses this directly.
+It uses a MongoDb document-orientated database, but also Redis to store inflight registrations
 
-There are a number of other components that make up the service that the team are expected to maintain and manage.
+This original implementation is known to have substantial technical debt, with lack of tests, non-adherence to conventions, and poor code quality being the main issues. Also in hindsight the solution is felt to be overly complicated for what was actually needed.
 
-<img src="service-structure-2018-03-06.svg" alt="Waste permits service components" style="width: 600px;"/>
+In 2018 renewals functionality was added to the service, but rather than add it to the existing code base two new applications were built. Both were Ruby on Rails web apps; one for external users and the other for internal users.
 
-### Renewing a registration
+They were built in accordance with what has become our standard model for Rails based digital services. Two host web apps that mount a Rails engine which contains the core functionality.
 
-From October 2017 to May 2018 the ability for users who registered or renewed after March 2015 to renew was being added to the service. The solution involves building a second external facing Ruby on Rails app which will communicate directly with the databases in MongoDb.
+<img src="service-structure-2018-09-19.svg" alt="Waste carriers service structure" style="width: 600px;"/>
 
 ## Repositories
 
 Currently the service is made up of the following repositories
 
-- [Waste carriers frontend](https://github.com/DEFRA/waste-carriers-frontend) - Ruby on Rails frontend application
-
-- [Waste carriers service](https://github.com/DEFRA/waste-carriers-service) - Java back end RESTful services layer
-
-- [OS Places address lookup](https://github.com/DEFRA/os-places-address-lookup) - Java web app built using Dropwizard which provides a facade to the OS places API
-
-- [Convictions search service](https://gitlab-dev.aws-int.defra.cloud/waste-carriers/convictions-search-service.git) - Java web app built using Dropwizard which is used to match details entered during the registration with lists of entities of interest
-
-- [Waste carriers renewals](https://github.com/DEFRA/waste-carriers-renewals) - Ruby on Rails application built to support the renewal functionality
+- [Waste carriers frontend](https://github.com/DEFRA/waste-carriers-frontend) - Original Ruby on Rails web app that includes both external and internal user functionality. Handles new registrations.
+- [Waste carriers service](https://github.com/DEFRA/waste-carriers-service) - Java back end RESTful services layer built using Dropwizard. The intention was to build a thin client with all logic based in the API, however this never happened. Now serves as essentially a data access layer for registrations.
+- [OS Places address lookup](https://github.com/DEFRA/os-places-address-lookup) - Java web app built using Dropwizard which provides a facade to the OS places API. We're the only service that uses it. All subsequent services used the [Address Facade Service](https://github.com/DEFRA/ea-address-facade) or go direct
+- [Waste carriers renewals](https://github.com/DEFRA/waste-carriers-renewals) - Rails engine which contains the renewals journey including all models, and is built to be mounted by a host Rails web app
+- [Waste carriers front office](https://github.com/DEFRA/waste-carriers-front-office) - Ruby on rails web app used by external users wishing to renew a registration. Mounts the renewals engine
+- [Waste carriers back office](https://github.com/DEFRA/waste-carriers-back-office) - Ruby on rails web app used by internal users to support renewals. They can complete renewals as part of assisted digital support using the app as it mounts the renewals engine. But it also includes functionality for approving conviction matches, adding payments, and searching for and viewing renewals.
 
 ## Additional info
 
-Most of the repositories above feature Wiki's that contain additional information about that element of the service.
+The following pages hold additional information about the service.
+
+- [Activation and Expiration](activation_expiration.md)
+- [Airbrake](airbrake.md)
+- [Background jobs](background_jobs.md)
+- [Database seeding](database_seeding.md)
+- [Entity matching](entity_matching.md)
+- [Grace window](grace_window.md)
+- [Importing IR records](importing_ir_records.md) ***defunct***
+- [Key people](key_people.md)
+- [Maintenance mode](maintenance_mode.md) ***defunct***
+- [Making a payment with WorldPay](payment_with_worldpay.md)
+- [Migrations](Migrations) ***defunct***
+- [Organisation type translation matrix](org_type_matrix.md)
+- [Registration status](registration_status.md)
+- [Renewals](renewals.md)
+- [Renewal window](renewal_window.md)
+- [Seeding for load tests](seeding_for_load_tests.md) ***defunct***
+- [Supported http requests](supported_http_requests.md)
+- [Valid responses from Companies House](companies_house_responses.md)

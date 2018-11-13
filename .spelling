@@ -48,6 +48,45 @@ postgresql
 sendgrid
 mongodb
 dropwizard
+dependabot
+epimorphics
+registrations.csv
+addresses.csv
+_people.csv
+_offs.csv
+orders.csv
+_items.csv
+payments.csv
+populator
+societas
+europaea
+backend
+wcr.gov.uk.
+bo-user
+example.com
+_identifier
+ltd
+plc
+janey
+blogsy
+env
+maintenance.html
+args
+activerecord
+_migration.rake
+worldpay
+params
+_details
+redis
+inflight
+un-revoked
+jira
+registrations.json
+registrationnumber
+start-registrationstatusjob
+start-exportjob
+ir-repopulate
+_foo
  - process/new_projects.md
 N.B.
  - README.md
@@ -80,3 +119,7 @@ _exemptions
 _shared
  - services/pafs/README.md
 Postcode.io
+ - services/wcr/activation_expiration.md
+8pm
+ - services/wcr/migrations.md
+v2.0
