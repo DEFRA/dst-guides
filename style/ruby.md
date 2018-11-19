@@ -1,23 +1,16 @@
 # Ruby
 
-We follow the Ruby style guide below:
+Use the latest version of Ruby 2.4 when starting a new project.
 
-<https://github.com/bbatsov/ruby-style-guide>
-
-- Use the latest version of Ruby 2.4 when starting a new project.
-- Ruby projects should be well tested, with a meaningful suite of unit tests.
-- [Run bundle update every week](https://www.quora.com/How-do-large-companies-ensure-that-their-Ruby-gem-files-and-Rails-version-are-constantly-kept-up-to-date). The tests will let you know if the upgrade broke anything.
+We follow the Ruby style guide <https://github.com/bbatsov/ruby-style-guide>
 
 ## Tools
 
-- Use [brakeman](http://brakemanscanner.org/) to check for vulnerabilities in your project and dependencies
-- Use [rubocop](https://github.com/bbatsov/rubocop) to check code style
-  - When starting a new Ruby project, copy our [config file](ruby/.rubocop.yml) to the project root directory
+- Use [hakiri](https://hakiri.io/) to check for vulnerabilities in your project and dependencies (integrate it via GitHub)
+- Use [defra-ruby-style](https://github.com/DEFRA/defra-ruby-style) to check code style (follow the install guide and run `bundle exec rubocop` as part of your CI)
 
 ## Rails
 
-Use the latest version of Rails 4 when starting a new project.
+Use the Rails 4.2 when starting a new project.
 
-We follow best practices described here:
-
-<https://github.com/bbatsov/rails-style-guide>
+We follow Rails best practice <https://github.com/bbatsov/rails-style-guide>
