@@ -56,6 +56,7 @@ The following pages hold additional information about the service.
 - [Making a payment with WorldPay](payment_with_worldpay.md)
 - [Migrations](Migrations) ***defunct***
 - [Organisation type translation matrix](org_type_matrix.md)
+- [Preparing for a release](preparing_for_a_release.md)
 - [Registration status](registration_status.md)
 - [Renewals](renewals.md)
 - [Renewal window](renewal_window.md)
