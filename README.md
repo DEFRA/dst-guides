@@ -17,6 +17,7 @@ These guides relate to the work of Digital Service teams in the Environment Agen
   - [Work in the open](/principles/work_in_the_open.md)
 - [Process](/process)
   - [Pull requests](/process/pull_request.md)
+  - [Releases](/process/releases.md)
   - [Workflows](/process/workflows.md)
 - [Services](/services)
   - [Apply for a standard rules waste permit](/services/wp)
