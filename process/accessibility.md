@@ -17,6 +17,7 @@ Good accessibility is not just for people with disabilities. It makes the whole 
 Many people with access needs use assistive technology. GOV.UK has a [Testing with assistive technologies](https://www.gov.uk/service-manual/technology/testing-with-assistive-technologies) page with a list of the technologies our services need to work against.
 
 You should familiarise yourself with how a screen reader works to help understand how you should mark up and test your web pages. Two free screen readers are:
+
 * [NVDA](https://www.nvaccess.org/) for PC
 * [VoiceOver](https://www.apple.com/uk/accessibility/mac/vision/), built into Mac.
 
@@ -46,7 +47,7 @@ These checklists were based on the [WebAIM checklist](https://webaim.org/standar
 
 Once you have eliminated major accessibility issues by testing in these ways, the best insight you can get is by doing research with people who use assistive technologies.
 
-## Recommended reading:
+## Recommended reading
 
 * ["Designing for accessibility" posters](https://github.com/UKHomeOffice/posters/blob/master/accessibility/dos-donts/posters_en-UK/accessibility-posters-set.pdf): Very popular set of posters on accessibility
 * [GOV.UK requirements for public sector sites](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps)
@@ -54,7 +55,7 @@ Once you have eliminated major accessibility issues by testing in these ways, th
 * [Microsoft's Inclusive 101 guide](https://www.microsoft.com/design/inclusive/)
 * [Experiences from an assistive technology user in government](https://accessibility.blog.gov.uk/2016/07/01/accessibility-and-me-chris-moore/)
 
-## Training:
+## Training
 
 Defra employees have attended the following courses and found them useful:
 
