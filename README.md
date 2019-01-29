@@ -19,6 +19,7 @@ These guides relate to the work of Digital Service Teams (DST) in the Environmen
   - [Pull requests](/process/pull_request.md)
   - [Releases](/process/releases.md)
   - [Workflows](/process/workflows.md)
+  - [Accessibility](/process/accessibility.md)
 - [Services](/services)
   - [Apply for a standard rules waste permit](/services/wp)
   - [Register or renew as a waste carrier, broker or dealer](/services/wcr)
