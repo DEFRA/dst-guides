@@ -50,7 +50,7 @@ Once you have eliminated major accessibility issues by testing in these ways, th
 
 * ["Designing for accessibility" posters](https://github.com/UKHomeOffice/posters/blob/master/accessibility/dos-donts/posters_en-UK/accessibility-posters-set.pdf): Very popular set of posters on accessibility
 * [GOV.UK requirements for public sector sites](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps)
-* [Webaim guidance on web accessibility testing]( https://webaim.org/resources/evalquickref/)
+* [Webaim guidance on web accessibility testing](https://webaim.org/resources/evalquickref/)
 * [Microsoft's Inclusive 101 guide](https://www.microsoft.com/design/inclusive/)
 * [Experiences from an assistive technology user in government](https://accessibility.blog.gov.uk/2016/07/01/accessibility-and-me-chris-moore/)
 
