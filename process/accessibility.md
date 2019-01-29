@@ -49,9 +49,8 @@ Once you have eliminated major accessibility issues by testing in these ways, th
 ## Recommended reading:
 
 * ["Designing for accessibility" posters](https://github.com/UKHomeOffice/posters/blob/master/accessibility/dos-donts/posters_en-UK/accessibility-posters-set.pdf): Very popular set of posters on accessibility
-* [What's new in WCAG 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-21/)
-* [Webaim: practical guidance on web accessibility testing]( https://webaim.org/resources/evalquickref/)
 * [GOV.UK requirements for public sector sites](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps)
+* [Webaim guidance on web accessibility testing]( https://webaim.org/resources/evalquickref/)
 * [Microsoft's Inclusive 101 guide](https://www.microsoft.com/design/inclusive/)
 * [Experiences from an assistive technology user in government](https://accessibility.blog.gov.uk/2016/07/01/accessibility-and-me-chris-moore/)
 
@@ -65,6 +64,7 @@ Defra employees have attended the following courses and found them useful:
 
 ## More links
 
+* [What's new in WCAG 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-21/)
 * [Léonie Watson's blog](https://tink.uk/) - regular insights from a web accessibility expert
 * [GOV.UK blog - testing the world's least-accessible webpage](https://accessibility.blog.gov.uk/2017/02/24/what-we-found-when-we-tested-tools-on-the-worlds-least-accessible-webpage/)
 * [The A11y Project](https://a11yproject.com/): A community-driven effort to make web accessibility easier
