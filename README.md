@@ -1,8 +1,8 @@
-# DST Guides
+# Digital Service Team Guides
 
 [![Build Status](https://travis-ci.org/DEFRA/dst-guides.svg?branch=master)](https://travis-ci.org/DEFRA/dst-guides)
 
-These guides relate to the work of Digital Service teams in the Environment Agency who are building new [Digital by default](https://www.gov.uk/service-manual/digital-by-default) services.
+These guides relate to the work of Digital Service Teams (DST) in the Environment Agency who are building new [Digital by default](https://www.gov.uk/service-manual/digital-by-default) services.
 
 ## Guides
 
