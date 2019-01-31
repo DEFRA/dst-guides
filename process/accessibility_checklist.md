@@ -26,7 +26,7 @@ The following tests are a simplified version of the [WebAIM checklist](https://w
 |Test|Guidelines|
 |---|---|
 |1. Check for plain English, with relevant information coming first, consistent use of terms, no unnecessary abbreviations or duplicated text.|[Meaningful sequence](https://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence.html),<br>[Consistent navigation](https://www.w3.org/WAI/WCAG21/Understanding/consistent-navigation.html),<br>[Consistent identification](https://www.w3.org/WAI/WCAG21/Understanding/consistent-identification.html)|
-|2. Check for guidance text within form labels. For example, that a password must contain a digit.|[Instructions](https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html)|
+|2. Check for guidance text within form labels. For example, that a password must contain a digit before a user creates it.|[Instructions](https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html)|
 |3. Check that text spacing can be reasonably adjusted to 1.5x line height.|[Text spacing](https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html)|
 
 ## Mobile
