@@ -1,10 +1,10 @@
 # Accessibility
 
-All of our digital services must be accessible to everyone who needs them.
+All of our digital services must be accessible and inclusive to everyone who needs them.
 
 We must research, design, develop and test according to [GOV.UK guidance](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction).
 
-Underpinning this guidance are the [Web Content Accessibility Guidelines (WCAG) version 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/glance/) which we must follow to levels A and AA. Following these guidelines helps us ensure that people with a wide range of needs, including people who use assistive technologies, are likely to be able to use your service.
+Underpinning this guidance are the [Web Content Accessibility Guidelines (WCAG) version 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/glance/) which we must follow to levels A and AA. This helps us ensure that people with a wide range of needs, including people who use assistive technologies, are likely to be able to use our services.
 
 Internal services must also be accessible. Approximately 10% of civil servants who have declared their disability status have a disability. [Accessibility guidance for internal services​](https://www.gov.uk/service-manual/design/services-for-government-users#accessibility)
 
@@ -14,7 +14,7 @@ Good accessibility is not just for people with disabilities. It makes the whole 
 
 ## Assistive technologies
 
-Many people with access needs use assistive technology. GOV.UK has a [Testing with assistive technologies](https://www.gov.uk/service-manual/technology/testing-with-assistive-technologies) page with a list of the technologies our services need to work against.
+Many people with access needs use assistive technology. GOV.UK has a [testing with assistive technologies](https://www.gov.uk/service-manual/technology/testing-with-assistive-technologies) page with a list of the technologies our services need to work against.
 
 You should familiarise yourself with how a screen reader works to help understand how you should mark up and test your web pages. Two free screen readers are:
 
@@ -25,39 +25,28 @@ You should familiarise yourself with how a screen reader works to help understan
 
 ## Testing for accessibility
 
-Rather than testing for accessibility at the end of a project, we should always quality assure (QA) the early designs up front. A checklist will help with this.
+Rather than testing for accessibility at the end of a project, you should always quality assure (QA) the early designs up front. The following checklist will help with this:
+
+[Accessibility checklist](accessibility_checklist.md)
 
 A good first accessibility test is to try navigating round your service using only the keyboard and zoomed in at 200%, using an older browser such as Internet Explorer 11.
 
 For quick accessibility checks, you can use tools such as the [WAVE extension](https://wave.webaim.org/extension/) for Chrome or Firefox. These help to identify around 30% of accessibility issues, such as insufficient contrast or unlabelled form fields.
 
-### Checklists
-
-The following checklists (visible to Defra employees) will help you objectively test a service against WCAG 2.1:
-
-* [Accessibility checklist (spreadsheet version)](https://defra-my.sharepoint.com/:x:/g/personal/andrew_hick_environment-agency_gov_uk/ESitVYTdWlJBtD2IX7UCvK4BZTWMe0mLjn8JclOrVHRnGw?e=N7X557)
-
-This contains tests on a single page, with cross-references to the relevant guidelines.
-
-* [Accessibility checklist (document version)](https://defra-my.sharepoint.com/:w:/g/personal/andrew_hick_environment-agency_gov_uk/EQVneSLL2NlLrtNes_8z99kBHx3gZYHWyZ2YoJLZsJnSEg?e=9i2DwM)
-
-Use this version if you want to save screenshots as you go along.
-
-These checklists were based on the [WebAIM checklist](https://webaim.org/standards/wcag/checklist).
-
 Once you have eliminated major accessibility issues by testing in these ways, the best insight you can get is by doing research with people who use assistive technologies.
 
-## Recommended reading
+## Recommended reading and viewing
 
 * ["Designing for accessibility" posters](https://github.com/UKHomeOffice/posters/blob/master/accessibility/dos-donts/posters_en-UK/accessibility-posters-set.pdf): Very popular set of posters on accessibility
 * [GOV.UK requirements for public sector sites](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps)
 * [Webaim guidance on web accessibility testing](https://webaim.org/resources/evalquickref/)
 * [Microsoft's Inclusive 101 guide](https://www.microsoft.com/design/inclusive/)
 * [Experiences from an assistive technology user in government](https://accessibility.blog.gov.uk/2016/07/01/accessibility-and-me-chris-moore/)
+* [Videos by assistive technology users](http://digitalaccessibilitycentre.org/index.php/videos) from the Digital Accessibility Centre
 
 ## Training
 
-Defra employees have attended the following courses and found them useful:
+Defra colleagues have attended the following courses and found them useful:
 
 * [Upcoming government training](https://designnotes.blog.gov.uk/events-and-training-in-the-user-centred-design-community/)
 * [Webcredible introduction to web accessibility](https://www.webcredible.com/training/web-accessibility-training/)
