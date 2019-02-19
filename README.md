@@ -9,6 +9,8 @@ These guides relate to the work of Digital Service Teams (DST) in the Environmen
 - [Applications](/applications)
   - [Error Notifications](/applications/error-notifications.md)
   - [Software Libraries](/applications/software-libraries.md)
+  - [Continuous Integration for Ruby based projects](/applications/ruby_based_ci.md)
+  - [Working with engines in Ruby on Rails](/applications/ruby-engines.md)
 - [GitHub](/github)
   - [New projects](/process/new_projects.md)
 - [Principles](/principles)
