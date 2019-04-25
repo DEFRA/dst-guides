@@ -157,3 +157,29 @@ end
 
 test_story = build(:story, :published_but_not_in_print)
 ```
+
+### Ways of working
+
+#### Pull requests
+
+Our pull requests follow the standard set out in [DST Guides](https://github.com/DEFRA/dst-guides/blob/master/process/pull_request.md). The TL;DR is
+
+- all changes are made on a branch
+- all changes are peer reviewed
+- respect your reviewer; keep PR's small and try to have a meaningful commit history
+- you only need approval from one team member to merge
+- commits are squashed down to one before merging; so make it meaningful
+
+Some other things that are not covered that are particular to our team are
+
+##### Assignment
+
+When you create the PR assign yourself to it. We treat the person assigned as the main contributor, rather than who happens to be working on it at that time. That way we know who to direct any questions or comments to.
+
+##### WIP
+
+All PR's are work in progress until you request a review. Feel free to add a [WIP] to the PR title or at the end of the description to highlight this, but it's not necessary.
+
+##### Label everything
+
+Label all PR's. We use the labels when generating the CHANGELOGs so its essential every PR gets one.
