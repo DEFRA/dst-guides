@@ -176,9 +176,13 @@ Some other things that are not covered that are particular to our team are
 
 When you create the PR assign yourself to it. We treat the person assigned as the main contributor, rather than who happens to be working on it at that time. That way we know who to direct any questions or comments to.
 
-##### WIP
+##### Draft PR's
 
-All PR's are work in progress until you request a review. Feel free to add a [WIP] to the PR title or at the end of the description to highlight this, but it's not necessary.
+We've always considered PR's to be 'work in progress' [WIP] until you request a review. Now GitHub has built in support for [marking a PR as draft](https://github.blog/2019-02-14-introducing-draft-pull-requests/) when you create it.
+
+This will prevent the PR from being merged until you click the 'ready for review' button, and the GitHub UI makes the `draft` status nice and clear in its UI.
+
+So open all new PR's as draft, and avoid adding '[WIP]' to the title or description.
 
 ##### Label everything
 
