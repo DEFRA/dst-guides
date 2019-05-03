@@ -158,6 +158,26 @@ end
 test_story = build(:story, :published_but_not_in_print)
 ```
 
+#### Assemble - Assert - Act
+
+We agree that tests should divide their Assert, Assemble and Act logic using empty lines. For example
+
+```ruby
+RSpec.describe SimpleService do
+  describe ".run" do
+    it "Does A, B and C" do
+      required_object = build(:required_object) # Assemble
+
+      result = described_class.run(required_object: required_object) # Act
+
+      expect(result).to have_done(:a) # Assert
+      expect(result).to have_done(:b) # Assert
+      expect(result).to have_done(:c) # Assert
+    end
+  end
+end
+```
+
 ### Ways of working
 
 #### Pull requests
