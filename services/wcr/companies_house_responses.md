@@ -59,4 +59,4 @@ The sub-set of statuses give more detail about a top level status (and we've rec
 Currently the only valid responses i.e. those that will allow a user to progress with their registration are **active** and **voluntary-arrangement**.
 
 The Waste carriers frontend app defaults to accepting only these values, but it can be overridden by setting the environment variable
-`WCRS_FRONTEND_ALLOWED_COMPANY_STATUSES`. This is loaded at runtime into the Rails configuration. The front and back office use the renewals engine, where these values are hard coded.
+`WCRS_FRONTEND_ALLOWED_COMPANY_STATUSES`. This is loaded at runtime into the Rails configuration. The front and back office use the waste-carriers-engine, where these values are hard coded.
