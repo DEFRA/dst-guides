@@ -2,6 +2,18 @@
 
 [![Build Status](https://travis-ci.org/DEFRA/dst-guides.svg?branch=master)](https://travis-ci.org/DEFRA/dst-guides)
 
+## WE ARE MOVING
+
+These guides started out as being something to support a single Digital service team, but then evolved into being a community hub to capture useful info for all digital service teams.
+
+We now have an official home for all development in Defra, not just digital teams at [Software development standards](https://github.com/DEFRA/software-development-standards) (SDS).
+
+As such much of the content here will be migrated to the new project. Eventually DST-Guides will close.
+
+In the interim we ask all new developers; permanent or contractor to check out both repos before they start working. If anything is duplicated or inconsistent between the two, SDS takes precedence.
+
+## Introduction
+
 These guides relate to the work of Digital Service Teams (DST) in the Environment Agency who are building new [Digital by default](https://www.gov.uk/service-manual/digital-by-default) services.
 
 ## Guides
