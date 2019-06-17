@@ -24,7 +24,6 @@ These guides relate to the work of Digital Service Teams (DST) in the Environmen
 - [GitHub](/github)
   - [New projects](/process/new_projects.md)
 - [Process](/process)
-  - [Pull requests](/process/pull_request.md)
   - [Releases](/process/releases.md)
   - [Workflows](/process/workflows.md)
   - [Accessibility](/process/accessibility.md)
