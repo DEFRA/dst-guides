@@ -44,8 +44,6 @@ These guides relate to the work of Digital Service Teams (DST) in the Environmen
   - [JavaScript](/style/javascript.md)
   - [Markdown](/style/markdown.md)
   - [Ruby](/style/ruby.md)
-- [Teams](/teams)
-  - [Ruby services](/teams/ruby_services.md)
 - *More to come, the process of conversion and documentation is ongoing!*
 
 ## About
