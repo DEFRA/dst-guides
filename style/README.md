@@ -4,4 +4,3 @@ Our guides on style.
 
 - [JavaScript](javascript.md)
 - [Markdown](markdown.md)
-- [Ruby](ruby.md)
