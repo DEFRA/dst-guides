@@ -17,28 +17,9 @@ If in doubt speak to [Alan Cruikshanks](https://github.com/cruikshanks) or [Ben 
 
 ## Getting started
 
-Create a branch. Prefix it with `feature` or `fix` depending on whether your adding or enhancing a guide, or correcting an error or omission. Use a brief but descriptive name e.g. `feature/add-more-details-for-contributors`.
+Create a branch. Use a brief but descriptive name and try and avoid spaces and capitilisation for example `add-more-details-for-contributors`.
 
 Start committing your changes and **push** straight away rather than when finished.
-
-## Checking your work
-
-### Spelling errors
-
-We recommend using [markdown-spellcheck](https://www.npmjs.com/package/markdown-spellcheck) to check content for spelling errors. Call it in the following way `mdspell --en-gb --ignore-numbers --ignore-acronyms --report '**/*.md'`. This ensures
-
-- You are using en-gb as your language `--en-gb`
-- Numbers are not reported as false positives `--ignore-numbers`
-- Acronyms are not reported as false positives `--ignore-acronyms`
-- You avoid the default interactive mode `--report`
-
-The last option is needed because our guides feature code examples. **markdown-spellcheck** includes them in the checks because it does not handle text in backticks. You'd have to deal with a large number of false positives which would be slow to go through and might put you off writing more guides. We want to avoid that! So currently it's not part of the build but we hope to include it if this feature becomes available.
-
-For now it'll simply report all errors and you can then deal with actual spelling errors directly.
-
-### Style
-
-We use [markdownlint](https://github.com/mivok/markdownlint) to check the files have a consistent style as part of our CI process. We suggest having a quick look at the [rules](https://github.com/mivok/markdownlint/blob/master/docs/RULES.md) before you start. We check contributions using `mdl --style md_style.rb $PWD`. We recommend you install this and run it before requesting feedback.
 
 ## When you're finished
 

@@ -1,7 +1,5 @@
 # Digital Service Team Guides
 
-[![Build Status](https://travis-ci.org/DEFRA/dst-guides.svg?branch=master)](https://travis-ci.org/DEFRA/dst-guides)
-
 ## WE ARE MOVING
 
 These guides started out as being something to support a single Digital service team, but then evolved into being a community hub to capture useful info for all digital service teams.
