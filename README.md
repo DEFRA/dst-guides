@@ -25,7 +25,7 @@ These guides relate to the work of Digital Service Teams (DST) in the Environmen
   - [New projects](/process/new_projects.md)
 - [Process](/process)
   - [Releases](/process/releases.md)
-  - [Accessibility](/process/accessibility.md)
+  - [Accessibility](https://github.com/DEFRA/qa-test/blob/master/accessibility/accessibility_checklist.md)
 - [Services](/services)
   - [Apply for a standard rules waste permit](/services/wp)
   - [Register or renew as a waste carrier, broker or dealer](/services/wcr)
