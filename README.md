@@ -28,7 +28,6 @@ These guides relate to the work of Digital Service Teams (DST) in the Environmen
   - [Accessibility](https://github.com/DEFRA/qa-test/wiki/Accessibility)
 - [Services](/services)
   - [Apply for a standard rules waste permit](/services/wp)
-  - [Register or renew as a waste carrier, broker or dealer](/services/wcr)
   - [Register your waste exemptions](/services/wex)
     - [Solution release process](/services/wex/solution-release-process.md)
     - [State engine](/services/wex/state_engine.md)
